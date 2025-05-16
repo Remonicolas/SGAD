@@ -3,7 +3,7 @@ import { LoginForm } from '@/components/auth/LoginForm';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Iniciar Sesión | AsistenciaTech',
+  title: 'Iniciar Sesión | SGAD-Baxtech',
 };
 
 export default function LoginPage() {

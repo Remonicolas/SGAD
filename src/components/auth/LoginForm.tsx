@@ -46,7 +46,7 @@ export function LoginForm() {
   return (
     <Card className="w-full max-w-md shadow-xl">
       <CardHeader className="text-center">
-        <CardTitle className="text-3xl font-bold text-primary">AsistenciaTech</CardTitle>
+        <CardTitle className="text-3xl font-bold text-primary">SGAD-Baxtech</CardTitle>
         <CardDescription>Iniciar sesión como Preceptor</CardDescription>
       </CardHeader>
       <CardContent>

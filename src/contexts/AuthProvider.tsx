@@ -19,7 +19,7 @@ const AuthContext = createContext<AuthContextType | undefined>(undefined);
 const MOCK_USER: User = {
   id: 'user1',
   username: 'preceptor',
-  name: 'Juan Pérez',
+  name: 'Jorge Prieto',
   role: 'Preceptor',
 };
 

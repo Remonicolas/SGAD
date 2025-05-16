@@ -110,7 +110,7 @@ export default function SettingsPage() {
       <Card className="mt-6 shadow-md">
         <CardHeader>
           <CardTitle className="text-xl flex items-center gap-2"><LogOut className="h-5 w-5 text-destructive"/>Cerrar Sesión</CardTitle>
-          <CardDescription>Finalizar la sesión actual en AsistenciaTech.</CardDescription>
+          <CardDescription>Finalizar la sesión actual en SGAD-Baxtech.</CardDescription>
         </CardHeader>
         <CardContent>
             <AlertDialog>

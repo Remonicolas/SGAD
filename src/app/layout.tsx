@@ -9,8 +9,8 @@ import { Toaster } from "@/components/ui/toaster"; // ShadCN Toaster
 const inter = Inter({ subsets: ['latin'], variable: '--font-inter' });
 
 export const metadata: Metadata = {
-  title: 'AsistenciaTech',
-  description: 'Aplicación para la gestión de asistencia de docentes.',
+  title: 'SGAD-Baxtech',
+  description: 'Sistema de Gestión de Asistencia Docente - Baxtech.',
 };
 
 export default function RootLayout({
