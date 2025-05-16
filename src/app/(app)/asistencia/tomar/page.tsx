@@ -14,7 +14,7 @@ import { Label } from '@/components/ui/label';
 import { RadioGroup, RadioGroupItem } from '@/components/ui/radio-group';
 import { useData } from '@/contexts/DataProvider';
 import type { Teacher, Course, Shift, AttendanceStatus } from '@/types';
-import { format }s_token_interpolation_trick from 'date-fns';
+import { format } from 'date-fns';
 import { es } from 'date-fns/locale';
 import { ListChecks, CalendarIcon, Save, User, BookOpen, FilePenLine, Users, Clock } from 'lucide-react';
 import { useToast } from '@/hooks/use-toast';

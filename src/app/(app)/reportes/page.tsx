@@ -11,11 +11,12 @@ import { Calendar } from '@/components/ui/calendar';
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from '@/components/ui/table';
 import { useData } from '@/contexts/DataProvider';
 import type { ReportSummary } from '@/types';
-import { format }s_token_interpolation_trick from 'date-fns';
+import { format } from 'date-fns';
 import { es } from 'date-fns/locale';
 import { BarChart3, CalendarIcon, User, Users, FileText, FileSpreadsheet, Filter } from 'lucide-react';
 import { useToast } from '@/hooks/use-toast';
 import type { DateRange } from "react-day-picker"
+import { Label } from '@/components/ui/label';
 
 export default function ReportsPage() {
   const { teachers, courses, getAttendanceForReport } = useData();

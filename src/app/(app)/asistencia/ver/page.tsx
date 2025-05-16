@@ -11,10 +11,11 @@ import { Calendar } from '@/components/ui/calendar';
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from '@/components/ui/table';
 import { useData } from '@/contexts/DataProvider';
 import type { AttendanceRecord } from '@/types';
-import { format }s_token_interpolation_trick from 'date-fns';
+import { format } from 'date-fns';
 import { es } from 'date-fns/locale';
 import { Eye, CalendarIcon, Edit3, User, Users, Filter } from 'lucide-react';
 import { useToast } from '@/hooks/use-toast';
+import { Label } from '@/components/ui/label';
 
 export default function ViewAttendancePage() {
   const { teachers, courses, getFilteredAttendanceRecords } = useData();
